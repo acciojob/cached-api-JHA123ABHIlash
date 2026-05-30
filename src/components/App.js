@@ -41,7 +41,7 @@ console.log(data);
         {
        memoizedData.map((el)=>(
            <li>
-           <b> {el.title}</b>
+           <h4>{el.title}</h4>
             <p>{el.body}</p>
           </li>
         ))
